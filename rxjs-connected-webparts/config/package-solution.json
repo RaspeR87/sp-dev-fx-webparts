@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "rxjs-connected-webparts-client-side-solution",
+    "id": "003fd60d-fe34-4a4f-8918-17e9eb4fa4f4",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/rxjs-connected-webparts.sppkg"
+  }
+}

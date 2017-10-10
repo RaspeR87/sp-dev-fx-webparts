@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "24f878ff-0db3-42a3-aea3-73eb5bbc4b9a",
+  "alias": "SenderWpWebPart",
+  "componentType": "WebPart",
+  "version": "*", // The "*" signifies that the version should be taken from the package.json
+  "manifestVersion": 2,
+
+  /**
+   * This property should only be set to true if it is certain that the webpart does not
+   *  allow arbitrary scripts to be called
+   */
+  "safeWithCustomScriptDisabled": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "24f878ff-0db3-42a3-aea3-73eb5bbc4b9a",
+    "group": { "default": "Under Development" },
+    "title": { "default": "SenderWP" },
+    "description": { "default": "SenderWP description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "SenderWP"
+    }
+  }]
+}

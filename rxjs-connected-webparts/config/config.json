@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/senderWp/SenderWpWebPart.js",
+      "manifest": "./src/webparts/senderWp/SenderWpWebPart.manifest.json",
+      "outputPath": "./dist/sender-wp.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/receiverWp/ReceiverWpWebPart.js",
+      "manifest": "./src/webparts/receiverWp/ReceiverWpWebPart.manifest.json",
+      "outputPath": "./dist/receiver-wp.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "senderWpStrings": "webparts/senderWp/loc/{locale}.js",
+    "receiverWpStrings": "webparts/receiverWp/loc/{locale}.js"
+  }
+}
