@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.1.1",
+    "libraryName": "rxjs-connected-webparts",
+    "libraryId": "003fd60d-fe34-4a4f-8918-17e9eb4fa4f4",
+    "environment": "spo"
+  }
+}
