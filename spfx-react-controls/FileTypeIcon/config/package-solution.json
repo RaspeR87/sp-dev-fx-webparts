@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "file-type-icon-client-side-solution",
+    "id": "408da85d-ab5d-4d95-a1f7-530ef5d4d1d7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/file-type-icon.sppkg"
+  }
+}
