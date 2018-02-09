@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "speaker-webpart-client-side-solution",
+    "id": "301e8364-2519-49ac-89df-a4722d6e76ce",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/speaker-webpart.sppkg"
+  }
+}
