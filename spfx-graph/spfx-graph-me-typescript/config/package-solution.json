@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-graph-planner-typescript-client-side-solution",
+    "id": "07ddae33-2a3d-4f0e-acbf-2393e56af89b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadWrite"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-graph-planner-typescript.sppkg"
+  }
+}

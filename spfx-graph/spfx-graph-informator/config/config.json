@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-graph-informator-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxGraphInformator/SpfxGraphInformatorWebPart.js",
+          "manifest": "./src/webparts/spfxGraphInformator/SpfxGraphInformatorWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxGraphInformatorWebPartStrings": "lib/webparts/spfxGraphInformator/loc/{locale}.js"
+  }
+}
