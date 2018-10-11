@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-graph-sharepoint-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxGraphSharepoint/SpfxGraphSharepointWebPart.js",
+          "manifest": "./src/webparts/spfxGraphSharepoint/SpfxGraphSharepointWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxGraphSharepointWebPartStrings": "lib/webparts/spfxGraphSharepoint/loc/{locale}.js"
+  }
+}
