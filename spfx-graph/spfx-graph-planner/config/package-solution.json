@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-graph-planner-client-side-solution",
+    "id": "1050cbe2-44b6-4da3-b89e-66dae1c474e9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.ReadWrite.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Tasks.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Tasks.ReadWrite"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-graph-planner.sppkg"
+  }
+}
